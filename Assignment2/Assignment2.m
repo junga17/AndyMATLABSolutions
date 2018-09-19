@@ -75,8 +75,11 @@ combinedresistance = (1)/((1/rone)+(1/rtwo)+(1/rthree))
 %True
 
 (3 == 2) + 1
+
 %1
+
 xor(5 < 6, 8 > 4)
+
 %False
 
 %25.)
@@ -142,9 +145,10 @@ mat = [1 2 3 4;5 6 7 8]
 mat=[1:4;2:5]
 
 %12.)
+
 rows = randi([1,5],1)
 cols = randi([1,5],1)
-zeros = (2,3)
+zeros (rows,cols)
 
 %23.)
 
@@ -185,7 +189,7 @@ vector = input('Enter a vector: ')
 
 %6.)
 
-fprint('12345.6789\n')
+fprintf('12345.6789\n')
 %This prints the number on a new line
 fprintf('%10.4f\n', 12345.6789)
 %This will print up to 10 numbers with 4 decimal places
@@ -206,7 +210,7 @@ fprintf('is equivalent to %3f cubic feet per second\n',frinms/.028)
 %13.)
 
 x = input('Enter a value for x:')
-y = input('Enter a value for y:')
+y = input('Enter a value for y:');
 z = input('Enter a value for z:')
 vector = [x y z]
 u = (vector)/sqrt((x^2)+(y^2)+(z^2))
