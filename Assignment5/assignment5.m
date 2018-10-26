@@ -7,7 +7,7 @@
 %%The genderIsoCalc function in this next line is used to calculate
 %%individual means of Isometric strength as well as gender means. These
 %%values are not normalized to any other variables.
-[maleIsoIndMeans,femaleIsoIndMeans,maleGroupIsoMean,femaleGroupIsoMean] = genderIsoCalc(Age,Day1,Day2,Day3,Gender,SubjectID,Weight)
+[maleIsoIndMeans,femaleIsoIndMeans,maleGroupIsoMean,femaleGroupIsoMean] = genderIsoCalc(Day1,Day2,Day3,Gender)
 %%The dayComparator function is called twice to output the SubjectID's of
 %%the subjects that improved from Day1 to Day2 and Day2 to Day3.
 [day1toDay2] = dayComparator(SubjectID,Day1,Day2)

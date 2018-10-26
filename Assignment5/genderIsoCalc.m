@@ -1,4 +1,4 @@
-function [maleIsoIndMeans,femaleIsoIndMeans,maleGroupIsoMean,femaleGroupIsoMean] = genderIsoCalc(Age,Day1,Day2,Day3,Gender,SubjectID,Weight)
+function [maleIsoIndMeans,femaleIsoIndMeans,maleGroupIsoMean,femaleGroupIsoMean] = genderIsoCalc(Day1,Day2,Day3,Gender)
 %This function will take the data that has been imported from the spread
 %sheet and return 4 outputs. The first two outputs are the indivdual
 %isometric stregnth means based on gender, and the second two outputs are
