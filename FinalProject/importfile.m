@@ -58,3 +58,5 @@ YCoord = dataArray{:, 2};
 ZCoord = dataArray{:, 3};
 
 
+
+
