@@ -9,9 +9,5 @@ function [output1] = timeConverter(A,units)
         output1 = strcat(s1,units);
     elseif nargin == 2 && strcmp(units,'seconds')
         day = 365*A*24*3600
-
-
-
-
 end
 

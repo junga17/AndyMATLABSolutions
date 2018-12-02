@@ -5,3 +5,5 @@ function [output1] = primeNumber(A)
 
 end
 
+
+
