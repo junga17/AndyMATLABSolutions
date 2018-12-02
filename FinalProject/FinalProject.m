@@ -65,7 +65,7 @@ else
     grid('on');
     saveas(COPPlot,'Eyes Open COP Plot.png')
     %%Create a table with finalized data to be exported.
-    T = table(xyArea, aveRadialArea, aveVelocity)
+    T = table(xyArea, aveRadialArea, aveVelocity);
     %Export data to .xlsx
     writetable(T,'COP_eyes_open_results.csv')
 end
